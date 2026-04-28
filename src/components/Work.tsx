@@ -5,35 +5,29 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "Secure_Invoice_Management_System",
+    category: "Management",
+    tools: "Java, Spring--Boot",
+    image: "/images/invoice.png",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "Driver-Drowsiness-Detection-System",
+    category: "Automotive Safety Systems",
+    tools: "Java, Spring-Boot",
+    image: "/images/drow.png",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
+    title: "Shophub",
+    category: "E-commerce",
+    tools: "React.js",
+    image: "/images/shophub.png",
   },
   {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
-  },
+    title: "To-Do-List",
+    category: "Task Management System",
+    tools: "javascript, HTML, CSS",
+    image: "/images/todo.png",
+  }
 ];
 
 const Work = () => {
