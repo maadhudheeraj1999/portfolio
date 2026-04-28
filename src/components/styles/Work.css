@@ -112,6 +112,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  min-height: 350px; /* or 400px for consistency */
 }
 
 /* ── Navigation Arrows ── */
@@ -228,9 +230,11 @@
 }
 
 .work-image img {
-  max-width: 100%;
-  max-height: 400px;
-  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  max-height: 350px;
+  object-fit: contain; /* or cover */
+  display: block;
 }
 
 /* ── Responsive ── */
