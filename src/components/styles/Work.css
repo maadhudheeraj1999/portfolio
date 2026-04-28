@@ -42,9 +42,9 @@
 
 .carousel-slide {
   min-width: 100%;
+  max-width: 100%;
   flex-shrink: 0;
-  box-sizing: border-box;
-  padding: 50px 0;
+  overflow: hidden;
 }
 
 .carousel-content {
@@ -52,6 +52,8 @@
   align-items: center;
   gap: 60px;
   width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .carousel-info {
@@ -59,6 +61,7 @@
   display: flex;
   gap: 30px;
   align-items: flex-start;
+  min-width: 0;
 }
 
 .carousel-number h3 {
@@ -114,6 +117,7 @@
   align-items: center;
   overflow: hidden;
   min-height: 350px; /* or 400px for consistency */
+  min-width: 0;
 }
 
 /* ── Navigation Arrows ── */
@@ -142,6 +146,10 @@
   border-color: var(--accentColor);
   color: var(--accentColor);
   box-shadow: 0 0 20px rgba(94, 234, 212, 0.15);
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .carousel-arrow-left {
